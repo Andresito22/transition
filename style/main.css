@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+
+}
+
+body{
+background-color: #ECF0F1;  
+}
+
+ul>li{
+display: inline-block;
+}
+
+ul>li>a{
+padding: 20px 30px;
+display: block;
+color: white;
+font-family: 'Courgette', cursive;
+box-sizing: border-box;
+margin: 0 0 0 -5px;
+}
+
+nav{
+text-align: center;
+background-color:#76D7C4;
+}
+
+ul>li>a:hover{
+background-color: #17A589;
+border-bottom: solid white; 
+}
+
+.active{
+background-color: #17A589;
+border-bottom: solid white; 
+}
+
+section{
+position: absolute;
+top: 0;
+right:0;
+bottom: 0;
+left: 0;
+width: 120px;
+height: 120px;
+margin: auto;
+background-color: #C0392B;  
+transition: 2s;
+}
+
+section:hover{
+background-color: purple; 
+width: 170px;
+height: 170px;
+}
+
+.cuadro{
+position: absolute;
+top: 0;
+right:0;
+bottom: 0;
+left: 0;
+width: 120px;
+height: 120px;
+margin: auto;
+background-color: #C0392B;
+transition-property: width, height, background-color,border;
+transition-duration: 1s;
+transition-delay: 0s, 1s, 1s,1.5s;
+}
+
+.cuadro:hover{
+width: 180px;
+height: 180px;
+background-color: #28B463;
+border:7px solid #F4D03F; 
+}
+
+.cuadro2{
+position: absolute;
+top: 0;
+right:0;
+bottom: 0;
+left: 0;
+width: 180px;
+height: 180px;
+margin: auto;
+background-color: rgb(22, 180, 8);
+transition-property:width, height, background-color; 
+transition-duration:1s;
+transition-delay:0s, 0s, 1s;
+}
+
+.cuadro2:hover{
+width: 210px;
+height: 210px;
+background-color:rgb(255, 153, 0)
+}
+
+.cuadrito{
+position: absolute;
+top: 0;
+right:0;
+bottom: 0;
+left: 0;
+width: 50px;
+height: 50px;
+margin: auto;
+background-color: rgb(36, 2, 129);
+transition-property:width, height,background-color,border-radius; 
+transition-duration:1s;
+transition-delay:2.5s,2.5s,4s,5s;
+}
+
+.cuadro2:hover .cuadrito{
+width: 120px;
+height: 120px;
+background-color:rgb(255, 60, 0);
+border-radius:50%;
+}
+
+.cuadro3{
+position: absolute;
+top: 0;
+right:0;
+bottom: 0;
+left: 0;
+width: 180px;
+height: 180px;
+margin: auto;
+background-color: rgb(21, 252, 117);
+transition-property:width, height, background-color; 
+transition-duration:1s;
+transition-delay:0s, 1s, 2s;
+}
+
+.cuadro3:hover{
+width: 220px;
+height: 220px;
+background-color:rgba(109, 221, 255, 0.616); 
+}
+
+
+.cuadrito1{
+position: absolute;
+top: 0;
+left:0;
+width: 50px;
+height: 50px;
+margin: 0;
+background-color: rgb(6, 1, 255);
+transition-property:margin, border-radius, background; 
+transition-duration:1s;
+transition-delay:3s,4s,4s;
+}
+
+.cuadro3:hover .cuadrito1{
+margin: 0 0 0 20px;
+border-radius: 50%;
+background-color:orange; 
+}
+
+.cuadrito2{
+position: absolute;
+bottom: 0;
+right:0;
+width: 50px;
+height: 50px;
+margin: 0;
+background-color: rgb(6, 1, 255);
+transition-property:margin, border-radius, background; 
+transition-duration:1s;
+transition-delay:3s, 4s, 4s;
+}
+
+.cuadro3:hover .cuadrito2{
+margin: 0 20px 0 0;
+border-radius: 50%;
+background-color:rgb(99, 3, 99); 
+}
+
+.page5{
+position: absolute;
+top: 0;
+right:0;
+bottom: 0;
+left: 0;
+width:230px;
+height:230px;
+margin: auto;
+background-color: rgb(211, 35, 4);
+transition-property:background-color, width, height; 
+transition-duration:1s;
+transition-delay:0.5s, 1.3s, 2.2s;
+}
+
+.page5:hover{
+background-color: rgb(0, 107, 0);
+width: 280px;
+height: 280px;
+}
+
+.cuadri{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 50px;
+height: 50px;
+margin: 0;
+background-color: orange;
+transition-property:margin, border-radius; 
+transition-duration:1s;
+transition-delay:3s, 4s;
+}
+
+.page5:hover .cuadri{
+margin: 30px;
+border-radius: 50%;
+}
+
+.cuadri1{
+position: absolute;
+top: 0;
+right:0;
+bottom: 0;
+left: 0;
+width: 50px;
+height: 50px;
+margin: auto;
+background-color: orange;
+transition-property:border-radius, background-color; 
+transition-duration:1s;
+transition-delay:5s, 6s;
+}
+
+.page5:hover .cuadri1{
+border-radius: 50%;
+background-color: rgb(41, 0, 41);
+}
+
+.cuadri2{
+position: absolute;
+top: 0;
+right:0;
+width: 50px;
+height: 50px;
+margin: 0;
+background-color: orange;
+transition-property:margin, border-radius; 
+transition-duration:1s;
+transition-delay:3s, 4s;
+}
+
+.page5:hover .cuadri2{
+margin: 30px;
+border-radius: 50%;
+}
+
+.page6{
+position: absolute;
+top: 0;
+right:0;
+bottom: 0;
+left: 0;
+width:220px;
+height:220px;
+margin: auto;
+background-color: rgb(140, 98, 255);
+transition-property:background-color, width, height; 
+transition-duration:1s;
+transition-delay:0.5s, 1.3s, 2.2s;
+}
+
+.c1{
+position: absolute;
+top: 0;
+left: 0;
+width:50px;
+height:50px;
+margin: 0;
+background-color: rgb(95, 62, 0);
+}
+
+.c2{
+position: absolute;
+bottom: 0;
+left: 0;
+width:50px;
+height:50px;
+margin: 0;
+background-color: rgb(95, 62, 0);
+}
+
+.c3{
+position: absolute;
+bottom: 0;
+right: 0;
+top: 0;
+left: 0;
+width:50px;
+height:50px;
+margin: auto;
+background-color: rgb(95, 62, 0);
+}
+
+.c4{
+position: absolute;
+top: 0;
+right: 0;
+width:50px;
+height:50px;
+margin: 0;
+background-color: rgb(95, 62, 0);
+}
+
+.c5{
+position: absolute;
+bottom: 0;
+right:0;
+width:50px;
+height:50px;
+margin: 0;
+background-color: rgb(95, 62, 0);
+}
